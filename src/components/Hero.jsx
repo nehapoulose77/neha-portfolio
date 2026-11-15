@@ -3,14 +3,10 @@ import { motion } from "framer-motion";
 import {
   ArrowDown,
   ArrowUpRight,
-  CheckCircle2,
   Github,
   Linkedin,
   Mail,
   MapPin,
-  Sparkles,
-  Terminal,
-  ShieldCheck,
   Send
 } from "lucide-react";
 import { PROFILE } from "../data/portfolioData";
@@ -187,48 +183,6 @@ export default function Hero() {
                 </div>
               )}
             </div>
-
-            {/* Floating Floating Badges */}
-            <motion.div
-              className="photo-badge photo-badge-top"
-              initial={{ opacity: 0, x: -20 }}
-              animate={{ opacity: 1, x: 0 }}
-              transition={{ delay: 0.6, duration: 0.5 }}
-            >
-              <div className="badge-icon-wrap badge-purple">
-                <ShieldCheck size={18} />
-              </div>
-              <div className="badge-text-wrap">
-                <span className="badge-label">Focus Area</span>
-                <span className="badge-title">QA & Automation</span>
-              </div>
-            </motion.div>
-
-            <motion.div
-              className="photo-badge photo-badge-bottom"
-              initial={{ opacity: 0, x: 20 }}
-              animate={{ opacity: 1, x: 0 }}
-              transition={{ delay: 0.8, duration: 0.5 }}
-            >
-              <div className="badge-icon-wrap badge-yellow">
-                <Sparkles size={18} />
-              </div>
-              <div className="badge-text-wrap">
-                <span className="badge-label">Academic Merit</span>
-                <span className="badge-title">7.9 CGPA · B.Tech</span>
-              </div>
-            </motion.div>
-
-            {/* Floating Tech Mini Tag */}
-            <motion.div
-              className="photo-mini-pill"
-              initial={{ opacity: 0, y: 15 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: 0.95, duration: 0.5 }}
-            >
-              <Terminal size={14} />
-              <span>Python · SQL · Playwright</span>
-            </motion.div>
           </div>
         </motion.div>
       </div>
