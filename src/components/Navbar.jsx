@@ -112,7 +112,7 @@ export default function Navbar() {
             }}
           >
             <span>Let's Talk</span>
-            <ArrowUpRight size={18} />
+            <ArrowUpRight size={20} />
           </a>
         </div>
 
@@ -123,7 +123,7 @@ export default function Navbar() {
           aria-label={isOpen ? "Close Menu" : "Open Menu"}
           aria-expanded={isOpen}
         >
-          {isOpen ? <X size={26} /> : <Menu size={26} />}
+          {isOpen ? <X size={30} /> : <Menu size={30} />}
         </button>
       </div>
 
@@ -155,7 +155,7 @@ export default function Navbar() {
                   onClick={() => setIsOpen(false)}
                   aria-label="Close navigation"
                 >
-                  <X size={22} />
+                  <X size={26} />
                 </button>
               </div>
 
@@ -194,7 +194,7 @@ export default function Navbar() {
                       handleLinkClick("#resume");
                     }}
                   >
-                    <FileText size={16} />
+                    <FileText size={18} />
                     <span>Download Resume</span>
                   </a>
                   <a
@@ -205,7 +205,7 @@ export default function Navbar() {
                       handleLinkClick("#contact");
                     }}
                   >
-                    <Send size={16} />
+                    <Send size={18} />
                     <span>Contact Me</span>
                   </a>
                 </div>
