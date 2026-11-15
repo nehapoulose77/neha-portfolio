@@ -32,7 +32,7 @@ export const PROFILE = {
     "QA Automation Engineer",
     "Junior Developer"
   ],
-  tagline: "Passionate about Technology, Software Testing and Building Innovative Solutions.",
+  tagline: "Passionate about Technology, Development, Software Testing and Building Innovative Solutions.",
   greeting: "Hello, I'm",
   location: "Kochi, Kerala, India",
   email: "nehapoulose77@gmail.com",
