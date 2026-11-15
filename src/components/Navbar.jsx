@@ -112,7 +112,7 @@ export default function Navbar() {
             }}
           >
             <span>Let's Talk</span>
-            <ArrowUpRight size={16} />
+            <ArrowUpRight size={18} />
           </a>
         </div>
 
@@ -123,7 +123,7 @@ export default function Navbar() {
           aria-label={isOpen ? "Close Menu" : "Open Menu"}
           aria-expanded={isOpen}
         >
-          {isOpen ? <X size={24} /> : <Menu size={24} />}
+          {isOpen ? <X size={26} /> : <Menu size={26} />}
         </button>
       </div>
 
